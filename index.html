@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon"
+        href="data:image/jpeg;base64,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" />
+    <style>
+        * {
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .or {
+            background-repeat: no-repeat;
+         background-size: cover;
+            background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210714/pngtree-blur-creative-blog-background-image_741789.jpg');
+        }
+
+        .wh {
+            background-repeat: no-repeat;
+         background-size: cover;
+            background-image: url('https://blog.prezi.com/wp-content/uploads/2019/03/jason-leung-479251-unsplash.jpg');
+        }
+
+        .re {
+            background-repeat: no-repeat;
+         background-size: cover;
+            background-image:url('https://images.squarespace-cdn.com/content/v1/5baa344ea56827921b901e3e/1537885748344-7TPPYYC12NMH6XTEAL5X/blog-background.jpg?format=2500w');
+            
+        }
+
+        .hi {
+            background-repeat: no-repeat;
+         background-size: cover;
+            background-image: url('https://www.shutterstock.com/image-photo/dry-pampas-grass-reeds-agains-260nw-1868643154.jpg');
+        }
+        .l{
+         background-repeat: no-repeat;
+         background-size: cover;
+            background-image: url('https://t4.ftcdn.net/jpg/05/40/76/21/240_F_540762197_SuMFCUauEO1Rn8vDc5bNM51j7CSJfIwc.jpg');
+        }
+
+        .o {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        /* body {
+            background-color: cornsilk;
+        } */
+
+        .cd {
+            font-size: large;
+            cursor: pointer;
+            color: darkblue;
+            background-color: azure;
+            margin-right: 5px;
+        }
+
+        .cd:hover {
+            background-color: aquamarine;
+
+        }
+
+        .four {
+            text-decoration: none;
+            cursor: cell;
+        }
+
+        .do {
+            text-decoration: none;
+            cursor: crosshair;
+        }
+
+        .de {
+            text-decoration: underline;
+            /* text-decoration: underline; */
+        }
+
+        div {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        ul li::marker {
+            color: hotpink;
+        }
+
+        ol li::marker {
+            color: darkred;
+        }
+
+        .di {
+            /* text-decoration: none; */
+            color: darkred;
+        }
+
+        .sds {
+            color: brown;
+            margin-left: 30%;
+            margin-top: -15.9%;
+        }
+
+        .sd {
+            margin-left: 30%;
+            margin-top: 0%;
+        }
+
+        .d {
+            border: 3px solid brown;
+            border-radius: 10px;
+            background-color:aqua;
+        }
+
+        .dw {
+            border: 3px solid darkgoldenrod;
+            border-radius: 10px;
+            /* height: 50px; */
+            width: 240px;
+            padding: 2px 1px 2px;
+            background-color:aquamarine;
+        }
+        .qw{
+            margin-left: 50%;
+            margin-top: -40%;
+        }
+        /* .qw img{
+            transition: transform 0.3s ease-in-out;
+
+        }
+        .qw image:hover{
+            transform: scale(1.2);
+        } */
+
+        .ad::first-letter {
+            font-size: 35px;
+            color: darkorange;
+        }
+
+        .dig {
+            font-size: 35px;
+            color: darkgreen;
+
+        }
+        .las{
+            margin-left: 12%;
+        }
+        .zo img:hover{
+            zoom:1.2;
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1 class="d" style="color:rgb(235, 12, 12) ;">
+
+        <marquee behavior="alternate" scrollamount="10"><span class="de" style="color:orange">PRO </span><span class="de"
+                style="color:darkgreen">KABADDI</span></marquee>
+    </h1>
+    <!-- <strong> <a href="https://www.prokabaddi.com/about-prokabaddi"><button class="cd">ABOUT</button></a></strong> -->
+    <!-- <hr  width="100%" color="darkred"/> -->
+    <br />
+    <button class="cd" onclick=" window.location.href='https://www.prokabaddi.com/about-prokabaddi';"> About</button>
+    <a href="https://www.prokabaddi.com/teams"><button class="cd">Teams</button></a>
+    <a href="https://www.prokabaddi.com/standings"><button class="cd">Standings</button></a>
+    <a href="https://www.prokabaddi.com/stats"><button class="cd">Stats</button></a>
+    <a href="https://sportsroid.com/kabaddi-rules-and-regulations-how-to-play-kabaddi-game/"><button
+            class="cd">Rules</button></a>
+
+
+    <div class="or o">
+        
+        <h1 style="color:darkmagenta"><pre>  <u>INTRODUCTION</pre></u></h1>
+        <div class="zo"><center> <img 
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwM0bd6DZ_V10BWDXnMCaLXiYiYkIP0hvyVw&usqp=CAU"
+                alt="" height="300" width="500"></center></div>
+        <br />
+        <br />
+        <!-- <p> -->
+        <h2 align="justify" class="ad"><i>Pro <span class="dig">K</span>abaddi is a ground-breaking initiative by Mashal
+                Sports Pvt. Ltd and Disney Star. Ever since its
+                inception in 2014, The League has revolutionised the sport of kabaddi with stunning innovations, making
+                it an aspirational sport for players and fans alike. Backed by the Amateur Kabaddi Federation of India
+                (AKFI), and supported by participating members of the International Kabaddi Federation (IKF) and the
+                Asian Kabaddi Federation (AKF), the league has witnessed tremendous growth over the past seasons.
+                Mashal Sports and Disney Star have jointly worked towards elevating the sport of kabaddi to an
+                international standard with new and exciting innovations in the rules and how the game is viewed, thus
+                heralding in a new era for kabaddi. They infused new life into the sport by bringing it to the major
+                metropolitan cities of India along with regions where kabaddi was yet to gain a foothold. Pro Kabaddi
+                now has unprecedented participation from various parts of the country owing to the outreach over the
+                past seasons and the advent of new programmes pioneered by Mashal Sports to encourage young talent from
+                across the country. Kabaddi is now also seen as a viable career option by various aspiring players in
+                India and abroad.
+                The addition of four new teams in the fifth edition of the league made Pro Kabaddi India's biggest
+                sports league in terms of geographical representation and number of teams. The new sides – Gujarat
+                Giants, Haryana Steelers, Tamil Thalaivas and U.P. Yoddhas made the competition all the more intense and
+                the kabaddi all the more exciting.</i></h2>
+        <!-- </p> -->
+    </div>
+    <!-- <h2> KABADDI LEAGUE</h2>
+    <h1 style="color: green; background-color: crimson; text-align: center;">LE PANGA</h1> -->
+    <!-- <br /> -->
+    <div class="wh o">
+        <br />
+        <h2 class="dw">
+
+            <span class="do" style="color:coral;"> KHEL</span>
+            <span class="four" style="color:darkorchid; "> KABADDI :</span>
+            <!-- <span style="color:palevioletred">:-</span> -->
+        </h2>
+        <br />
+        <marquee behavior="alternate">
+            <div class="zo"><img
+                src="https://static.wixstatic.com/media/54ee86_4c37223b321141678de223d6e1786401~mv2.gif" alt="kabaddi">
+                </div>
+            <audio controls autoplay style="display:none">
+                <source src="./drive-breakbeat-173062.mp3" type="audio/mp3" />
+            </audio>
+        </marquee>
+        <br />
+        <h3><a href="https://www.prokabaddi.com/teams" class="di"> STATE KABADDI TEAMS :</a></h3>
+        <br />
+        <ul style="list-style-type:disc;">
+            <li>PATNA</li>
+            <li>HYDERABAD</li>
+            <li>GUJARAT</li>
+            <li>BANGLORE</li>
+            <li>KOLKATTA</li>
+            <li>DELHI</li>
+            <li>HARYANA</li>
+            <li>JAIPUR</li>
+            <li>PUNE</li>
+            <li>MUMBAI</li>
+            <li>UTTAR PRADESH</li>
+        </ul>
+        <h3 class="sds"><a href="#">INTERNATIONAL TEAMS :-</a></h3>
+        <br />
+        <ol class="sd">
+            <li> INDIA</li>
+            <li>IRAN</li>
+            <li>SOUTH KOREA</li>
+            <li>AFRICA</li>
+            <li>NEWZEALAND</li>
+            <li>CHINA</li>
+        </ol>
+
+    </div>
+    <div class="re o">
+        <br />
+        <div class="zo">
+        <center>
+           
+            <img src="https://www.shutterstock.com/image-vector/premium-editable-vector-file-kabaddi-260nw-2401930173.jpg"
+                height="400" width="800" />
+              
+        </center>
+    </div>
+        <br />
+        <h2 style="color:darkolivegreen"><u>PHYSICAL AND MENTAL HEALTH</u></h2>
+        <br />
+        <h3 STYLE="color: darkorchid;" align="justify">
+            <srong>Engaging in Kabaddi offers multifaceted benefits for both mental health and physical well-being. The
+                fast-paced and strategic nature of the game not only releases stress-reducing endorphins but also
+                sharpens
+                concentration through its tactical demands. The cardiovascular demands of Kabaddi contribute to heart
+                health, while the teamwork required fosters social connections crucial for mental well-being. Success in
+                executing plays boosts self-esteem, and the game's dynamic nature promotes flexibility and muscle
+                strength.
+                Regular participation enhances endurance and reflexes, positively impacting overall cognitive functions.
+                Pro Kabaddi
+                now has unprecedented participation from various parts of the country owing to the outreach over the
+                past seasons and the advent of new programmes pioneered by Mashal Sports to encourage young talent from
+                across the country.
+                Moreover, the emotional regulation facilitated by physical activity aids in managing symptoms of anxiety
+                and
+                depression. Kabaddi's holistic impact extends to improved sleep patterns and elevated mood, providing a
+                comprehensive approach to fostering a healthy mind and body The cardiovascular demands of Kabaddi
+                contribute to heart
+                health, while the teamwork required fosters social connections crucial for mental well-being. Success in
+                executing plays boosts self-esteem, and the game's dynamic nature promotes flexibility and muscle
+                strength.</srong>
+        </h3>
+
+    </div>
+    <div class="hi o">
+        <br />
+        <h1 style="color:brown;"><b><u>HIGHLIGHTS</u></b></h1>
+        <center>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/uzdVDHfQ4w4?si=C5I7aIUHOhU2mEVw"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </center>
+        <h1 style="color: green;"><u>HISTORY</u></h1>
+        <br />
+        <h3 style="color:blue" align="justify">Kabaddi is basically a combative sport, with seven players on each side;
+            played for a period of 40 minutes
+            with a 5 minutes break (20-5-20). The core idea of the game is to score points by raiding into the
+            opponent’s court and touching as many defense players as possible without getting caught on a single breath.
+
+            One player, chanting Kabaddi!!! Kabaddi!!!! Kabaddi!!!! Charges into the opponent court and try to touch the
+            opponent closest to him, while the seven opponents make maneuvers to catch the attacker. This is Kabaddi,
+            the match of one against seven, known as the game of struggle.
+
+            The players on the defensive side are called “Antis” while the player of the offence is called the “Raider”.
+            The attack in Kabaddi is known as a ‘Raid’. The antis touched by the raider during the attack are declared
+            ‘out’ if they do not succeed in catching the raider before he returns to home court. These players can
+            resume play only when their side scores points against the opposite side during their raiding turn or if the
+            remaining players succeed in catching the opponent’s raider.
+
+            The origin of the game dates back to pre-historic times played in different forms. The modern Kabaddi game
+            was played all over India and some parts of South Asia from 1930. The first known framework of the rules of
+            Kabaddi as an indigenous sport of India was prepared in Maharashtra in the year 1921 for Kabaddi
+            competitions on the pattern of Sanjeevani and Gemini in a combined form. Thereafter a committee was
+            constituted in the year 1923, which amended the rules framed in 1921. The amended rules were applied during
+            the All India Kabaddi Tournament organized in 1923.
+            <br />
+        <h3 style="color:darkmagenta"> 1st World Cup of Kabaddi was organised in 2004 at Mumbai (India), India won the First World Cup by beating
+            Iran in the finals. The second World Cup was held Panvel (India) in 2007 and India once again became
+            Champion.
+
+            The First Asian Women Championship was held at Hyderabad in 2005 and India won the Gold Medal. Women Kabaddi
+            was included for the first time in the South Asian Games held in Colombo, Sri Lanka in 2006.</h3>
+        </h3>
+
+    </div>
+    <div class="l o">
+        <br>
+        <h1 style="color:chocolate"><u>BENEFITS</u></h1>
+    <br/>
+        <marquee direction="up" class="las" width="40%" height="80%">
+            <h3>
+            <ol style="color:darkmagenta">
+                <li>Physical Fitness</li>
+                <li>Stress Relief</li>
+                <li>Endurance Building</li>
+                <li>Enhanced Concentration</li>
+                <li>Teamwork and Social Bonds</li>
+                <li>Boosted Self-esteem</li>
+                <li>Discipline and Routine</li>
+                <li>Goal Setting</li>
+                <li>Emotional Regulation</li>
+                <li>Mind-Body Connection</li>
+            </ol>
+            </h3>
+        </marquee>
+        <div class="zo">
+        <img class="qw" src="https://ss-i.thgim.com/public/incoming/article38005608.ece/alternates/LANDSCAPE_1200/vivo-Pro-Kabaddi-League-Season-8Image-1jpg" width="40%" height="60%" alt="" />
+        </div>
+        <br/>
+    </div>
+</body>
+
+</html>
